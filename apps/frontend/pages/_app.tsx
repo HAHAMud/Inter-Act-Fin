@@ -7,7 +7,17 @@ import { ConfigProvider } from 'antd';
 import theme from './theme/themeConfig';
 
 const App = ({ Component, pageProps }: AppProps) => {
-  const [queryClient] = useState(() => new QueryClient());
+  const [queryClient] = useState(
+    () =>
+      new QueryClient({
+        defaultOptions: {
+          queries: {
+            refetchOnWindowFocus: false,
+            retry: false,
+          },
+        },
+      })
+  );
 
   return (
     <ConfigProvider theme={theme}>
