@@ -62,6 +62,9 @@ importers:
       typescript:
         specifier: 5.2.2
         version: 5.2.2
+      zod:
+        specifier: 3.23.0-canary.20230815T194608
+        version: 3.23.0-canary.20230815T194608
       zustand:
         specifier: ^4.4.1
         version: 4.4.1(@types/react@18.2.21)(react@18.2.0)
@@ -3620,6 +3623,10 @@ packages:
 
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
+
+  /zod@3.23.0-canary.20230815T194608:
+    resolution: {integrity: sha512-1voEp0ooZsGTGA1YNGaWhTwHqwRIgi/6h/5PeUtgGZAn/WFdINEZWa8QaR27K2tYZSUepzVg2YivzK4Bxrr9Ow==}
     dev: false
 
   /zustand@4.4.1(@types/react@18.2.21)(react@18.2.0):
