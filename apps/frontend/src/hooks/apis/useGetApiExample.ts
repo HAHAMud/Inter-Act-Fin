@@ -1,5 +1,5 @@
 import { useQuery } from 'react-query';
-import { getExample } from '@/api-interceptor/example.api';
+import { getExample } from '@/src/apis/example.api';
 
 export const useGetApiExample = () => {
   return useQuery(getExample.name, getExample);

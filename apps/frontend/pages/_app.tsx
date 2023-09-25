@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider, Hydrate } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { ConfigProvider } from 'antd';
 
-import theme from '@/theme/themeConfig';
+import theme from '@/src/theme/themeConfig';
 
 const App = ({ Component, pageProps }: AppProps) => {
   const [queryClient] = useState(
