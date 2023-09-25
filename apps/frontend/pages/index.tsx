@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'antd';
-import { useGetApiExample } from '@/pages/hooks/apis';
+import { useGetApiExample } from '@/src/hooks/apis';
 
 const Home = () => {
   const { data, isLoading } = useGetApiExample();
